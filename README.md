@@ -14,7 +14,7 @@ Run IntelliJ and start a new project from version control https://prnt.sc/vNGhBg
 On next page, make sure version is set to git, and copy the following URL into the URL box: https://github.com/AbdulkerimI/Shop-DemoQA-Repo.git 
 Click "Clone" (https://prnt.sc/mEAvT8aGCPAx)
 
-Once the project is properly cloned, now you need to run Cypress. Open the terminal and use the command npx cypress open 
+Once the project is properly cloned, now you need to run Cypress. Open the terminal and use the command "npx cypress open". 
 If cypress didn't install properly, you will get an error message in the terminal. In this case, use npm install cypress --save-dev command to reinstall it.
 
 If this doesn't work, download cypress manually from https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download 
