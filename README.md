@@ -1,6 +1,8 @@
 # Shop-DemoQA-Repo
-This repo here is my solution for the task given to me.
-I used Cypress in IntelliJ Idea IDE, on windows 10 OS
+This repository is my solution for the task presented to me. I wrote and ran a series of test cases to thoroughly test the https://shop.demoqa.com website. 
+I have decided to automate a test regarding the password reset funcionality on the "My Account" page. This test case is labeled as TC05 in documentation, and running it results in a bug. Users can request password resets with false usernames and emails which this test simulates, and this SHOULD NOT happen.
+
+I used Cypress in IntelliJ Idea IDE, on windows 10 OS to run this test.
 
 To open it, you will need to install following:
   - Node.Js You can get it here: https://nodejs.org/en/download/ 
@@ -18,8 +20,6 @@ If cypress didn't install properly, you will get an error message in the termina
 If this doesn't work, download cypress manually from https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download 
 Extract the files, and run cypress.exe file https://prnt.sc/lKcPY6xww8a0 Once cypress is opened, you will be presented with the following screen https://prnt.sc/IyJOV0MfKnaT
 Simply drag and drop the whole root project folder from your IDE (IntelliJ in this case, like this https://prnt.sc/5oBdZIj4CAdK) and that should be it.
-
-
 
 If cypress is installed properly, this window will open https://prnt.sc/HrDeFwkaWJiL
 From there, select E2E (end to end testing), select the browser of your choice (I tested it in chrome and edge, works perfectly) and click "Start E2E Testing"
