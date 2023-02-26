@@ -9,3 +9,23 @@ To open it, you will need to install following:
     download it manually, run .exe file and simply drag and drop the project root folder from your IDE to start testing)
 
 Run IntelliJ and start a new project from version control https://prnt.sc/vNGhBgXFNV4S
+On next page, make sure version is set to git, and copy the following URL into the URL box: https://github.com/AbdulkerimI/Shop-DemoQA-Repo.git 
+Click "Clone" (https://prnt.sc/mEAvT8aGCPAx)
+
+Once the project is properly cloned, now you need to run Cypress. Open the terminal and use the command npx cypress open 
+If cypress didn't install properly, you will get an error message in the terminal. In this case, use npm install cypress --save-dev command to reinstall it.
+
+If this doesn't work, download cypress manually from https://docs.cypress.io/guides/getting-started/installing-cypress#Direct-download 
+Extract the files, and run cypress.exe file https://prnt.sc/lKcPY6xww8a0 Once cypress is opened, you will be presented with the following screen https://prnt.sc/IyJOV0MfKnaT
+Simply drag and drop the whole root project folder from your IDE (IntelliJ in this case, like this https://prnt.sc/5oBdZIj4CAdK) and that should be it.
+
+
+
+If cypress is installed properly, this window will open https://prnt.sc/HrDeFwkaWJiL
+From there, select E2E (end to end testing), select the browser of your choice (I tested it in chrome and edge, works perfectly) and click "Start E2E Testing"
+This screen should open: https://prnt.sc/0I8EaB2mkl0p From here, select the TC05-invalidUsernamePasswordReset and run it. 
+
+Test Case 05 tests a password reset functionality which has a bug in it, and it SHOULD fail at the last step, which is verification. Consult the test cases and the bug report for more details. 
+
+
+
