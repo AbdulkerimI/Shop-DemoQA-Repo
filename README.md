@@ -1,4 +1,4 @@
-# Shop-DemoQA-Repo
+# Shop-DemoQA-Repo Abdulkerim Isanović
 This repository is my solution for the task presented to me. I wrote and ran a series of test cases to thoroughly test the https://shop.demoqa.com website. 
 I have decided to automate a test regarding the password reset funcionality on the "My Account" page. This test case is labeled as TC05 in documentation, and running it results in a bug. Users can request password resets with false usernames and emails which this test simulates, and this SHOULD NOT happen.
 
